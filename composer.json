@@ -1,0 +1,21 @@
+{
+    "name": "texthtml/cors-silex",
+    "description": " Cross-site HTTP requests middleware for Silex ",
+    "keywords": ["cors", "silex", "middleware", "http"],
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Mathieu Rochette",
+            "email": "mathieu@rochette.cc",
+            "homepage": "https://mathieu.rochette.cc"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "TH\\Silex\\CORS\\": "src/"
+        }
+    }
+}
