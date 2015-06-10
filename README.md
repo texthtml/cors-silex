@@ -1,6 +1,6 @@
 # CORS-Silex
 
- Cross-site HTTP requests middlware for [Silex](http://silex.sensiolabs.org/)
+ Cross-site HTTP requests middleware for [Silex](http://silex.sensiolabs.org/)
 
 [![Latest Stable Version](https://poser.pugx.org/texthtml/cors-silex/v/stable.svg)](https://packagist.org/packages/texthtml/cors-silex)
 [![License](https://poser.pugx.org/texthtml/cors-silex/license.svg)](https://packagist.org/packages/texthtml/cors-silex)
