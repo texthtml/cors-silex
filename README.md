@@ -15,10 +15,5 @@ In your project root folder
 2. In your Silex container configuration, register the CORSMiddleware:
 
 ```php
-use TH\Silex\CORS\CORSMiddleware;
-$app->after(new CORSMiddleware(
-    '*',
-    ['GET', 'DELETE', 'POST', 'PUT'],
-    ['Authorization', 'Content-Type']
-));
+$app->register(new TH\Silex\CORS\CORSProvider);
 ```

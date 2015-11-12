@@ -25,9 +25,6 @@ class CORSMiddleware
 
     public function __invoke(Request $request, Response $response)
     {
-        if ($request->getMethod() === Request::METHOD_OPTIONS && $response->getStatusCode() === 405) {
-            $response = new Response('', Response::HTTP_NO_CONTENT);
-        }
         $response->headers->set('Access-Control-Allow-Origin', $this->origin);
         $response->headers->set('Access-Control-Allow-Methods', $this->methods);
         $response->headers->set('Access-Control-Allow-Headers', $this->headers);
